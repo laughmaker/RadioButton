@@ -18,6 +18,9 @@
 		25F603B217532F3300218C0F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25F603B117532F3300218C0F /* Default-568h@2x.png */; };
 		25F603B517532F3300218C0F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F603B317532F3300218C0F /* MainStoryboard.storyboard */; };
 		25F603B817532F3300218C0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F603B717532F3300218C0F /* ViewController.m */; };
+		25F603C317532F5700218C0F /* RadioButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 25F603BF17532F5700218C0F /* RadioButton-Selected.png */; };
+		25F603C417532F5700218C0F /* RadioButton-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 25F603C017532F5700218C0F /* RadioButton-Unselected.png */; };
+		25F603C517532F5700218C0F /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F603C217532F5700218C0F /* RadioButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		25F603B417532F3300218C0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		25F603B617532F3300218C0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		25F603B717532F3300218C0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25F603BF17532F5700218C0F /* RadioButton-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Selected.png"; sourceTree = "<group>"; };
+		25F603C017532F5700218C0F /* RadioButton-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RadioButton-Unselected.png"; sourceTree = "<group>"; };
+		25F603C117532F5700218C0F /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		25F603C217532F5700218C0F /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 		25F6038F17532F3300218C0F = {
 			isa = PBXGroup;
 			children = (
+				25F603BE17532F5700218C0F /* RadioButton */,
 				25F603A117532F3300218C0F /* RadioButtonDemo */,
 				25F6039A17532F3300218C0F /* Frameworks */,
 				25F6039917532F3300218C0F /* Products */,
@@ -105,6 +113,17 @@
 				25F603B117532F3300218C0F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25F603BE17532F5700218C0F /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				25F603BF17532F5700218C0F /* RadioButton-Selected.png */,
+				25F603C017532F5700218C0F /* RadioButton-Unselected.png */,
+				25F603C117532F5700218C0F /* RadioButton.h */,
+				25F603C217532F5700218C0F /* RadioButton.m */,
+			);
+			path = RadioButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +182,8 @@
 				25F603B017532F3300218C0F /* Default@2x.png in Resources */,
 				25F603B217532F3300218C0F /* Default-568h@2x.png in Resources */,
 				25F603B517532F3300218C0F /* MainStoryboard.storyboard in Resources */,
+				25F603C317532F5700218C0F /* RadioButton-Selected.png in Resources */,
+				25F603C417532F5700218C0F /* RadioButton-Unselected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +197,7 @@
 				25F603A817532F3300218C0F /* main.m in Sources */,
 				25F603AC17532F3300218C0F /* AppDelegate.m in Sources */,
 				25F603B817532F3300218C0F /* ViewController.m in Sources */,
+				25F603C517532F5700218C0F /* RadioButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
